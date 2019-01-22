@@ -1,0 +1,21 @@
+title: MLog
+name: "Jidin's AI Blog"
+author: Jidin Dinesh
+twitter_username: JidinDinesh
+baseurl: ""
+description: Documenting my journey.
+profile_url: "http://mlblog17.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+excerpt_separator: <!--more-->
+plugins:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
